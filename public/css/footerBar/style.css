@@ -1,0 +1,6 @@
+#footerBar{
+    position: absolute; 
+    width:100%; 
+    border: solid mediumseagreen 1px; 
+    bottom: 0%;
+} 
