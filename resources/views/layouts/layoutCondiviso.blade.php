@@ -12,7 +12,7 @@
  
  @include('layouts.navBarApplicazione')
 
-<div style='position:absolute; width:100vw; height:100vh;'>
+<div style='position:relative; width:100%;'>
 
     
     <div class="container" style="margin-top: 150px;  min-height:62.2vh;">
@@ -22,13 +22,15 @@
         @yield("contenuti")
         
     </div>    
-
-    <div id='footerBar' class="p-2 text-white text-center">
-        &copy; giuseppe tarallo | London, UK  2023
-    </div>
     
+    <div id='footerBar' class="p-2 text-white text-center">
+            &copy; giuseppe tarallo | London, UK  2023
+    </div>
+
 </div>
-        
+
+
+
 </body>
 </html>
 

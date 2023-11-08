@@ -1,6 +1,6 @@
 #footerBar{
-    position: absolute; 
+    position: relative; 
     width:100%; 
     border: solid mediumseagreen 1px; 
-    bottom: 0%;
+    bottom: -68px;
 } 
